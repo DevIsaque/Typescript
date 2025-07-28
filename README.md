@@ -1,1 +1,1 @@
-# Typescript
+# Repositório de estudos em TypeScript
