@@ -22,5 +22,7 @@ let algumaCoisaUnknown: unknown;
 
 //console.log(algumaCoisaAny.toFixed(2)); Any não avisa quando está errado.
 
-//console.log(algumaCoisaUnknown.toFixed(2));  Unknown avisa quando está errado.
+if(typeof algumaCoisaUnknown === 'number') {
+    console.log(algumaCoisaUnknown.toFixed(2)); // Aqui não há erro
+}
 
